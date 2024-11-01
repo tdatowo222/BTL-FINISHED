@@ -1,0 +1,137 @@
+.container2 {
+    background-color: var(--color-main);
+}
+
+footer {
+    max-width: 1300px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    margin: 0 auto;
+    flex-wrap: wrap; 
+    color: #fff; 
+}
+
+footer .inner-left {
+    width: 35%;
+}
+
+footer .inner-left div p,
+footer .inner-right div p {
+    font-size: 16px;
+    margin: 0;
+}
+
+footer .inner-left div p,
+footer .inner-right div {
+    text-align: justify;
+}
+
+footer .inner-left div {
+    font-size: 14px;
+    line-height: 2;
+}
+
+
+footer .inner-right {
+    width: calc(65% - 20px);
+}
+
+footer .inner-right .sec1,
+footer .inner-right .sec2 {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px; 
+}
+
+.parent {
+    width: calc(25% - 20px);
+}
+
+footer .inner-right .sec1 .parent p,
+footer .inner-right .sec2 .parent p {
+    font-size: 16px;
+    line-height: 2;
+}
+
+footer .inner-right .sec1 .parent div a,
+footer .inner-right .sec2 .parent div a {
+    color: #fff;
+    font-size: 14px;
+    text-align: justify;
+    line-height: 2;
+}
+
+
+.container2 .inner-right .sec2 img {
+    width: 100px;
+}
+
+.bottom {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1300px;
+    margin: auto; 
+}
+
+.bottom p {
+    padding: 10px 0; 
+    color: var(--color-main);
+    font-size: 14px;
+}
+
+.bottom ul {
+    display: flex;
+    padding-left: 0; 
+}
+
+.bottom ul li {
+    margin-right: 10px; 
+}
+
+.bottom ul li a {
+    color: var(--color-main);
+}
+
+/* Responsive */
+@media screen and (max-width: 768px) {
+    footer {
+        flex-direction: column;
+        align-items: flex-start; 
+    }
+
+    footer .inner-left,
+    footer .inner-right {
+        width: 100%; 
+        margin-bottom: 20px;
+    }
+
+    footer .inner-right .sec1,
+    footer .inner-right .sec2 {
+        flex-direction: column; 
+        width: 100%; 
+    }
+
+    footer .inner-right .sec1 .parent {
+        width: 100%; 
+        margin-bottom: 10px;
+    }
+
+    .bottom {
+        flex-direction: column; 
+        align-items: flex-start; 
+    }
+
+    .bottom p {
+        font-size: 12px; 
+    }
+
+    .bottom ul {
+        flex-direction: column;
+    }
+
+    .bottom ul li{
+        margin-right: 0;
+        margin-bottom: 5px; 
+    }
+}
