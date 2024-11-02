@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    background-color: #E6F0F7;
+    font-family: Arial, sans-serif;
+}
+
+.container{
+    width: 100%;
+    max-width: 360px;
+    background-color: #ffffff;
+    padding: 20px 20px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.header{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    padding-top: 0;
+}
+
+.logo img{
+    height: 100%;
+    width: 100%;
+}
+
+.icon{
+    position: absolute;
+    right: 0; 
+    font-size: 24px;
+    color: #333;
+    top: 0; 
+}
+
+.icon a{
+    color: #333;
+}
+
+.title{
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.sub-title{
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+input[type="tel"]{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+input[type="tel"]:focus{
+    border-color: #004d26;
+    outline: none;
+}
+
+button{
+    width: 100%;
+    padding: 10px;
+    background-color: #006633;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #004d26;  
+}
