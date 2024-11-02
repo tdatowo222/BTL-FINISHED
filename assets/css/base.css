@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+:root{
+    --color-main:#2f6d41;
+    --color-form:#edeff1 ;
+}
+body {
+    font-family: Arimo;
+    box-sizing: border-box;
+    margin: 0;
+}
+.container{
+    width: 100%;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.container1{
+    width: 100%;
+    max-width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+body a{
+    text-decoration: none;
+}
+body li{
+    list-style-type: none;
+}
+.container2{
+    width: 100%;
+}
+html{
+    scroll-behavior: smooth;
+}

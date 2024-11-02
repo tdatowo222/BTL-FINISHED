@@ -1,0 +1,364 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/popmenu.css">
+    <link rel="stylesheet" href="./assets/css/foooter.css">
+    <link rel="stylesheet" href="./assets/css/email.css">
+    <link rel="stylesheet" href="./assets/css/index.css ">
+    <link rel="shortcut icon" href="./assets/imagesheader/logo.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <title>Trang chủ</title>
+</head>
+<body>
+    <!-- Header --> 
+    <header class="header">
+        <div class="header-top">
+            <div class="container">
+                <div class="inner-logo">
+                    <a href="./index.html">
+                        <img src="./assets/imagesheader/logo.png" alt="Logo">
+                    </a>
+                    <div class="form">
+                        <form action="/" target="_self" method="post">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                            <input name="Tim Kiem:" type="text" placeholder="Bạn muốn gì hôm nay...">
+                        </form>
+                    </div>
+                </div>
+                <div class="inner-social">
+                    <a href="/" target="_self" class="a-ship">
+                        <img src="./assets/imagesheader/logoshipper.png" alt="Logo">
+                        <p>Chọn Phương Thức Nhận Hàng</p>
+                    </a>
+                    <ul>
+                        <li>
+                            <a href="#" target="_seft" title="Email" class="email-link">
+                                <i class="fa-regular fa-envelope"></i>
+                                <span class="order-count"></span>
+                            </a>
+                        </li>
+                          <li>
+                            <a href="./login.html" target="_self" title="User Profile">
+                              <i class="fa-regular fa-user"></i>
+                            </a>
+                          </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="header-main">
+            <div class="container">
+                <ul>
+                    <li>
+                        <a href="./index.html" target="_self">
+                            TRANG CHỦ
+                        </a>
+                    </li>
+                    <li>
+                        <a href="menu.html" target="_self">
+                            MENU
+                            <div class="submenu">
+                                <div>THỨC UỐNG</div>
+                                <ul>
+                                    <li>Best seller</li>
+                                    <li>Bst kim cúc mộc tê</li>
+                                    <li>Trà trái cây</li>
+                                    <li>Trà sữa</li>
+                                    <li>Kem silky</li>
+                                    <li>Cà phê</li>
+                                    <li>Đá xay</li>
+                                </ul>
+                                <div>BÁNH</div>
+                                <ul>
+                                    <li>Bánh lạnh</li>
+                                    <li>Bánh cookies - croissant</li>
+                                    <li>Bánh mì</li>
+                                </ul>
+                                <div>BST LY GẤU GIÁNG SINH</div>
+                                <ul>
+                                    <li>Combo ly gấu và nước 169k</li>
+                                    <li>Ly gấu 149k</li>
+                                </ul>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="./aboutus.html" target="_self">
+                            VỀ CHÚNG TÔI
+                        </a>
+                    </li>
+                    <li>
+                        <a href="./discount.html" target="_self">
+                            KHUYẾN MÃI
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <!-- End Header -->
+    <main>
+        <div class="slideshow-container">
+            <div class="slide fade">
+                <img src="./assets/imagesindex/background-img1.jpg" alt="Slide 1">
+            </div>
+            
+            <div class="slide fade">
+                <img src="./assets/imagesindex/background-img2.jpg" alt="Slide 2">
+            </div>
+
+            <a class="prev" onclick="change(-1)">&#10094;</a>
+            <a class="next" onclick="change(1)">&#10095;</a>
+        
+            <div class="dots">
+                <span class="dot" onclick="current(1)"></span>
+                <span class="dot" onclick="current(2)"></span>
+            </div>
+        </div>  
+        <div class="title">
+            <h1>
+                Sản phẩm nổi bật
+            </h1>
+        </div>
+        <section class="adsproduct">
+            <div class="parent-container1">
+                <img class="tranhai-image" src="./assets/imagesindex/tranhai.png" alt="tra nhai"/>
+                <div class="information">
+                <div class="productname">
+                    <h1>TRÀ TRÁI CÂY</h1>
+                </div>
+                <div class="description">
+                    <p>Hương vị tự nhiên, thơm ngon của Trà Việt với phong cách hiện đại tại Highlands Coffee sẽ giúp bạn gợi mở vị giác của bản thân và tận hưởng một cảm giác thật khoan khoái, tươi mới.</p>
+                </div>
+                <div>
+                <a class="formoreInformation" href="./menu.html">KHÁM PHÁ THÊM</a>
+                </div>
+                </div>
+            </div>
+            <div class="parent-container2">
+                <img class="matcha-image" src="./assets/imagesindex/matcha.png" alt="tra nhai"/>
+                <div class="information">
+                    <div class="productname">
+                        <h1>TRÀ TRÁI CÂY</h1>
+                    </div>
+                    <div class="description">
+                        <p>Hương vị tự nhiên, thơm ngon của Trà Việt với phong cách hiện đại tại Highlands Coffee sẽ giúp bạn gợi mở vị giác của bản thân và tận hưởng một cảm giác thật khoan khoái, tươi mới.</p>
+                    </div>
+                    <div>
+                        <a class="formoreInformation" href="./menu.html">KHÁM PHÁ THÊM</a>
+                        </div>
+                    </div>
+            </div>
+            <div class="parent-container3">
+                <img class="robusta-image" src="./assets/imagesindex/robusta.png" alt="tra nhai"/>
+                <div class="information">
+                    <div class="productname">
+                        <h1>TRÀ TRÁI CÂY</h1>
+                    </div>
+                    <div class="description">
+                        <p>Hương vị tự nhiên, thơm ngon của Trà Việt với phong cách hiện đại tại Highlands Coffee sẽ giúp bạn gợi mở vị giác của bản thân và tận hưởng một cảm giác thật khoan khoái, tươi mới.</p>
+                    </div>
+                    <div>
+                        <a class="formoreInformation" href="./menu.html">KHÁM PHÁ THÊM</a>
+                        </div>
+                    </div>
+            </div>
+        </section>
+        <div class="discountnews">
+            <div class="title">
+                <h1>
+                    TIN TỨC & KHUYẾN MÃI
+                </h1>
+            </div>
+            <article>
+                <div class ="discountimg">
+                <a href="#"><img src="./assets/imagesindex/discount1.jpg" alt="Anh khuyen mai 1"/></a>
+                </div>
+                <div class = "view">
+                <img class="view_icon" src="./assets/imagesindex/view-icon.png" alt="view amount"/>
+                <span class="viewamount">1909</span>
+                </div>
+                <div class="adstitle">
+                    <a href="#">
+                    <p>
+                        Hùng Anh thêm tuổi mới, Hội Viên có thêm quà!
+                    </p>
+                    </a>
+                </div>
+            </article>
+            <article>
+                <a href="#"><img src="./assets/imagesindex/discount1.jpg" alt="Anh khuyen mai 1"/></a>
+                <div class = "view">
+                    <img class="view_icon" src="./assets/imagesindex/view-icon.png" alt="view amount"/>
+                    <span class="viewamount">1909</span>
+                    </div>
+                    <div class="adstitle">
+                        <a href="#">
+                        <p>
+                            Hùng Anh thêm tuổi mới, Hội Viên có thêm quà!
+                        </p>
+                        </a>
+                    </div>
+            </article>
+            <article>
+                <a href="#"><img src="./assets/imagesindex/discount1.jpg" alt="Anh khuyen mai 1"/></a>
+                <div class = "view">
+                    <img class="view_icon" src="./assets/imagesindex/view-icon.png" alt="view amount"/>
+                    <span class="viewamount">1909</span>
+                    </div>
+                    <div class="adstitle">
+                        <a href="#">
+                        <p>
+                            Hùng Anh thêm tuổi mới, Hội Viên có thêm quà!
+                        </p>
+                        </a>
+                    </div>
+            </article>
+            <article>
+                <a href="#"><img src="./assets/imagesindex/discount1.jpg" alt="Anh khuyen mai 1"/></a>
+                <div class = "view">
+                    <img class="view_icon" src="./assets/imagesindex/view-icon.png" alt="view amount"/>
+                    <span class="viewamount">1909</span>
+                    </div>
+                    <div class="adstitle">
+                        <a href="#">
+                        <p>
+                            Hùng Anh thêm tuổi mới, Hội Viên có thêm quà!
+                        </p>
+                        </a>
+                    </div>
+            </article>
+        </div>
+        <div class="URLtoNews">
+            <a class="moreNews" href="./discount.html">Xem thêm</a>
+        </div>
+    </main>
+    <div class="container2">
+        <footer>
+            <div class="inner-left">
+                <div class="one">
+                    <p>ĐỊA CHỈ</p>
+                </div>
+                <div >
+                    <b>Trụ sở chính:</b> Công ty Cổ Phần Hùng Anh Heritage - ĐKKD: 0316 871719 do sở KHĐT TPHCM cấp lần đầu ngày 21/05/2021
+                </div>
+                <div>
+                    <b>Nhà máy:</b> LD_8D_CN Đường XE 1, Khu Công Nghiệp Mỹ Phước III, phường Mỹ Phước, thị xã Bến Cát, tỉnh Bình Dương, Việt Nam.
+                </div>
+                <div>
+                    <b>Địa chỉ:</b> Phòng 702, Tầng 7, Tòa nhà Central Plaza, số 17 Lê Duẩn, phường Bến Nghé, quận 1, Hồ Chí Minh.
+                </div>
+                <div>
+                    <b>Hotline Đặt hàng:</b> 1800 6779
+                </div>
+                <div>
+                    <b>Hotline Công ty:</b> 1900 2345 18 (Bấm phím 0: Lễ Tân | phím 1: CSKH)
+                </div>
+                <div>
+                    <b>Email:</b>sales@hunganh.masangroup.com, info2@hunganh.masangroup.com
+                </div>
+            </div>
+            <div class="inner-right">
+                <div class="sec1">
+                    <div class="parent">
+                        <p>CÔNG TY</p>
+                        <div>
+                            <a href="#">Giới Thiệu Công Ty</a>
+                        </div>
+                    </div>
+                    <div class="parent">
+                        <p>TUYỂN DỤNG </p>
+                        <div>
+                            <a href="#">HTCH</a>
+                        </div>
+                        <div>
+                            <a href="#">Kiosk</a>
+                        </div>
+                        <div>
+                            <a href="#">Văn phòng</a>
+                        </div>
+                        <div>
+                            <a href="#">Nhà máy</a>
+                        </div>
+                    </div>
+                    <div class="parent">
+                        <p>HỘI VIÊN</p>
+                        <div>
+                            <a href="#">Câu hỏi thường gặp (FAQ)</a>
+                        </div>
+                        <div>
+                            <a href="#">Điều khoản và điều kiện chương trình hội viên</a>
+                        </div>
+                        <div>
+                            <a href="#">Điều khoản & điều kiện thẻ trả trước</a>
+                        </div>
+                    </div>
+                    <div class="parent">
+                        <p>LIÊN HỆ</p>
+                        <div>
+                            <a href="#">Liên hệ</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="sec2">
+                    <div class="parent">
+                        <p>KHUYẾN MÃI</p>
+                        <div>
+                            <a href="#">Tin khuyến mãi</a>
+                        </div>
+                    </div>
+                    <div class="parent">
+                        <p>CỬA HÀNG</p>
+                        <div>
+                            <a href="#">Danh sách cửa hàng</a>
+                        </div>
+                    </div>
+                    <div class="parent">
+                        <p>ĐIỀU KHOẢN SỬ DỤNG</p>
+                        <div>
+                            <a href="#">Chính sách và bảo mật thông tin</a>
+                        </div>
+                        <div>
+                            <a href="#">Chính sách đặt hàng</a>
+                        </div>
+                    </div>
+                    <div class="parent">
+                        <img src="./assets/imagesheader/logobottom.png" alt="logo bottom">
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <div class="bottom">
+        <p>© Công ty CP Hùng Anh Heritage 2024</p>
+        <div class="icon-bottom">
+            <ul>
+                <li>
+                    <a href="#">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fa-brands fa-youtube"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <script src="./assets/js/index.js"></script>
+        <script src="./assets/js/menupop.js"></script>
+</body> 
+</html>
